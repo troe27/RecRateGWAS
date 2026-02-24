@@ -1,0 +1,37 @@
+##
+## GEMMA Version    = 0.98.5 (2021-08-25)
+## Build profile    = /gnu/store/8rvid272yb53bgascf5c468z0jhsyflj-profile
+## GCC version      = 13.3.0
+## GSL Version      = 2.8
+## OpenBlas         = OpenBLAS 0.3.29  - OpenBLAS 0.3.27 DYNAMIC_ARCH NO_AFFINITY Haswell MAX_THREADS=128
+##   arch           = Haswell
+##   threads        = 32
+##   parallel type  = threaded
+##
+## Command Line Input = gemma -bfile Demetris_queens -lmm 4 -hwe 0 -miss 1.0 -maf 0.05 -k output/Demetris_matrix.cXX.txt -o Demetris_lmm 
+##
+## Date = Thu Jun 19 02:39:51 2025
+##
+## Summary Statistics:
+## number of total individuals = 195
+## number of analyzed individuals = 184
+## number of covariates = 1
+## number of phenotypes = 1
+## number of total SNPs/var = 2762043
+## number of analyzed SNPs/var = 2310593
+## REMLE log-likelihood in the null model = 2922.07
+## MLE log-likelihood in the null model = 2942.7
+## pve estimate in the null model = 0.811157
+## se(pve) in the null model = 0.171074
+## vg estimate in the null model = 2.07751e-15
+## ve estimate in the null model = 1.96877e-16
+## beta estimate in the null model =   2.29787e-07
+## se(beta) =   1.0344e-09
+##
+## Computation Time:
+## total computation time = 14.165 min 
+## computation time break down: 
+##      time on eigen-decomposition = 0.0932752 min 
+##      time on calculating UtX = 1.06012 min 
+##      time on optimization = 11.9414 min 
+##

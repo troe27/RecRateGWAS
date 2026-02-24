@@ -1,0 +1,27 @@
+##
+## GEMMA Version    = 0.98.5 (2021-08-25)
+## Build profile    = /gnu/store/8rvid272yb53bgascf5c468z0jhsyflj-profile
+## GCC version      = 13.3.0
+## GSL Version      = 2.8
+## OpenBlas         = OpenBLAS 0.3.29  - OpenBLAS 0.3.27 DYNAMIC_ARCH NO_AFFINITY Haswell MAX_THREADS=128
+##   arch           = Haswell
+##   threads        = 32
+##   parallel type  = threaded
+##
+## Command Line Input = gemma -bfile Demetris_queens -gk 1 -hwe 0 -miss 1.0 -maf 0.05 -r2 1.0 -o Demetris_matrix 
+##
+## Date = Thu Jun 19 02:30:46 2025
+##
+## Summary Statistics:
+## number of total individuals = 195
+## number of analyzed individuals = 184
+## number of covariates = 1
+## number of phenotypes = 1
+## number of total SNPs/var = 2762043
+## number of analyzed SNPs/var = 2310593
+##
+## Computation Time:
+## total computation time = 6.22673 min 
+## computation time break down: 
+##      time on calculating relatedness matrix = 5.93957 min 
+##

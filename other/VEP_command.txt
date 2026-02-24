@@ -1,0 +1,3 @@
+vep -i "xxx".vcf.gz --fork 4 --offline --cache --dir_cache /home/deces123/Project/dna-seq-gatk-variant-calling_ver3/resources/vep_cache/ --cache_version 60 --species apis_mellifera --assembly Amel_HAv3.1 -o "xxx"
+
+
