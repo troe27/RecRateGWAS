@@ -1,0 +1,9 @@
+name: gmmat-sim
+channels:
+  - conda-forge
+dependencies:
+  - python=3.11
+  - numpy>=1.26
+  - pandas>=2.2
+  - pysam>=0.22
+  - bcftools>=1.20
