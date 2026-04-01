@@ -4,13 +4,13 @@ Code and scripts used for analyses in the paper
 
 #  Genetic determinants of intraspecific variation in crossover frequencies in the Honeybee, _Apis mellifera_
 
-Turid Everitt<sup>1</sup>*, Luong Hieu Trinh<sup>1</sup>*, Demetris Taliadoros<sup>1</sup>,Tilman Rönneburg<sup>1</sup>, Anna Olsson<sup>1</sup>, Joachim R. de Miranda<sup>2</sup>, Bertrand Servin<sup>3</sup>, Matthew T. Webster<sup>1†</sup>
+Turid Everitt<sup>1</sup>\*, Luong Hieu Trinh<sup>1</sup>\*, Demetris Taliadoros<sup>1</sup>,Tilman Rönneburg<sup>1</sup>, Anna Olsson<sup>1</sup>, Joachim R. de Miranda<sup>2</sup>, Bertrand Servin<sup>3</sup>, Matthew T. Webster<sup>1†</sup>
 
 1) Dept. Medical Biochemistry and Microbiology, SciLifeLab, Uppsala University, Uppsala,
 Sweden
 2) Department of Ecology, Swedish University of Agricultural Sciences, Uppsala, Sweden
-3) GenPhySE, Université de Toulouse, INRAE, ENVT, Castanet-Tolosan, France
-\* shared first-authorship
+3) GenPhySE, Université de Toulouse, INRAE, ENVT, Castanet-Tolosan, France  
+\* shared first-authorship  
 † correspondence to matthew.webster@imbim.uu.se
 
 
