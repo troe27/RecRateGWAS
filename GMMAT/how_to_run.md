@@ -17,7 +17,8 @@
 ├── 002_format_pheno.py              # dataset specific: formats phenotype akin to GMMAT test-data, and multiplies to get CO/Mb. Also interleaves the repeat observations. 
 ├── 003_format_grm.py                # dataset specific: formats GRM akin to GMMAT test-data
 ├── 004_sample_union.py              # dataset specific: takes intersection of all datasets (GRM, VCF, Pheno) as we have more individuals than phenotypical observations
-├── 005_run_gmmat.sh                 # Wrapper to run gmmat.
+├── 005_run_gmmat.sh                 # Wrapper to run GMMAT.
+├── run_gmmat_gwas.R                 # Rscript called by 005 - runs GMMAT GWAS with repeated measurements
 ├── gmmat_input_issues.md            # troubleshooting hints when you are having issues with your input
 ├── how_to_run.md                    # this document.
 └── setup                            # folder containing setup scripts.
