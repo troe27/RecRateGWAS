@@ -43,7 +43,7 @@ read_vcf_dosage_matrix <- function(vcf_file) {
   line_index <- 0L
 
   repeat {
-    line <- readLines(con, n = 1)
+    line <- readLines(con, n = 1, skipNul = TRUE)
     if (length(line) == 0) {
       break
     }
@@ -51,12 +51,23 @@ read_vcf_dosage_matrix <- function(vcf_file) {
       next
     }
     if (startsWith(line, "#CHROM")) {
-      header_fields <- strsplit(line, "\t", fixed = FALSE)[[1]]
+      header_fields <- strsplit(line, "\t", fixed = TRUE)[[1]]
       sample_ids <- header_fields[-(1:9)]
       next
     }
 
-    fields <- strsplit(line, "\t", fixed = FALSE)[[1]]
+    fields <- strsplit(line, "\t", fixed = TRUE)[[1]]
+    expected_fields <- length(sample_ids) + 9L
+    if (length(fields) != expected_fields) {
+      stop(
+        sprintf(
+          "Malformed VCF row at variant %d: expected %d tab-delimited fields, got %d",
+          line_index + 1L,
+          expected_fields,
+          length(fields)
+        )
+      )
+    }
     line_index <- line_index + 1L
     dosages <- vapply(fields[-(1:9)], parse_gt_to_dosage, numeric(1))
     variant_rows[[line_index]] <- c(fields[1], fields[3], fields[2], dosages)
